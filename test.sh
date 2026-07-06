@@ -4,7 +4,7 @@ Test · SH
 # A tiny test: run the app and check it says exactly what we expect.
 # Exit 0 = pass (Jenkins stage goes green). Exit 1 = fail (stage goes red).
  
-expected="Hello from the pipelineee!"
+expected="Hello from the pipeline!"
 actual="$(./app.sh)"
  
 if [ "$actual" = "$expected" ]; then
